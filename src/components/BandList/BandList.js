@@ -1,5 +1,6 @@
 import React from 'react';
 import Band from '../Band/Band';
+import './BandList.css';
 import data from '../../MetalMeta.js';
 
 function BandList() {
@@ -16,11 +17,11 @@ function BandList() {
     })
 
     return (
-        <div className = "BandList">
-            <h2>Bands: { bands.length }</h2>
-            <div className="Bands">
-                { bands }
-            </div>
+        <div className = "BandLength">
+             <h2>Bands: { bands.length }</h2>
+                <div className = "BandList">
+                    { bands }
+                </div>
         </div>
     )
 }

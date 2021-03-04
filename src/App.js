@@ -6,7 +6,9 @@ import BandList from './components/BandList/BandList';
 function App() {
   return (
     <div className="App">
-      <Heading />
+      <header className="App-header">
+        <Heading />
+      </header>
       <BandList />
     </div>
   );

@@ -4,7 +4,8 @@ function Heading() {
     return (
         <div className="Heading">
             <header>
-                <h1>FEW 1.2 Final Assessment<br />Padyn Riddell</h1>
+                <h1>Padyn Riddell</h1>
+                <h3>FEW 1.2 Final Assessment</h3>
             </header>
         </div>
     )

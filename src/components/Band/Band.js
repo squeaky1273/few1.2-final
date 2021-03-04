@@ -1,13 +1,15 @@
 import React from 'react';
+// import Like from '../Like/Like'
+import './Band.css';
 
 function Band(props) {
     const { band_name, fans, formed, origin } = props
     return (
-        <div className="band">
+        <div className="Band">
             <h3> { band_name } </h3>
-            <div>Formed: { formed } </div>
-            <div>{ origin }</div>
-            <div>Fans: { fans }</div>
+            <p>Formed: { formed } </p>
+            <p>{ origin }</p>
+            <p>Fans: { fans }</p>
         </div>
     )
 }
