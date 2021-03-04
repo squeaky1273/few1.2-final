@@ -21,8 +21,8 @@ class Like extends Component {
         return (
             <div>
                 <p>Likes: { count } </p>
-                <button onClick={(e) => {this.decrementCount()}}>-</button>
-                <button onClick={(e) => {this.incrementCount()}}>+</button>
+                <button onClick={(e) => {this.decrementCount()}}>👎</button>
+                <button onClick={(e) => {this.incrementCount()}}>👍</button>
             </div>
         );
 }

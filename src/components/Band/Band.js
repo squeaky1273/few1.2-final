@@ -11,6 +11,13 @@ function Band(props) {
             <p>{ origin }</p>
             <p>Fans: { fans }</p>
             <Like />
+            {/* <div className="Likes">
+                { split === "-" ? 
+                    <Like />
+                    :
+                    <p>Split: { split }</p>
+                }
+            </div> */}
         </div>
     )
 }
